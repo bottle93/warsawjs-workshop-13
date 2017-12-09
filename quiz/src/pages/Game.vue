@@ -25,7 +25,7 @@ import axios from 'axios';
 
 export default {
   created() {
-    const url = 'https://opentdb.com/api.php?amount=5&type=boolean';
+    const url = `https://opentdb.com/api.php?amount=${this.$store.state.count}&type=boolean`;
     axios.get(url)
       .then(res => this.results = res.data.results)
       .catch(err => console.error(err));

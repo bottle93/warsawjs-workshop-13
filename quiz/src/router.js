@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Game from './pages/Game';
-import Layout from './pages/Layout';
-import Intro from '@/pages/Intro';
-import Won from '@/pages/Won';
+import Game from './pages/Game'
+import Layout from './pages/Layout'
+import Settings from '@/pages/Settings'
+import Intro from '@/pages/Intro'
+import Won from '@/pages/Won'
 
 Vue.use(Router)
 
@@ -32,7 +33,7 @@ const router = new Router({
         },
         {
           name: 'settings',
-          component: Won,
+          component: Settings,
           path: '/settings',
         },
       ]

@@ -1,5 +1,5 @@
 <template>
-    <div class="column">
+  <div class="column">
     <div class="ui card one centered">
       <div class="content">
         <div class="header">You Won! Congratulations!</div>
